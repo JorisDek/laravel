@@ -17,6 +17,8 @@
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
+                color: #FFFFFF;
+                background-color: #000000;
             }
 
             .container {
