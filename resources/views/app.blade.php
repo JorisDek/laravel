@@ -11,7 +11,7 @@
 	
 </head>
 <body>
-	//@include('particles.nav')
+	
 
 	<div class="container" style="padding:50px 0 0 0;">
 		@include('particles.flash')
