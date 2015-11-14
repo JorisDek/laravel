@@ -3,6 +3,7 @@
 
 <head>
 	<title>Laravel Tutorial</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Select2 css,js -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/select2/4.0.0/css/select2.min.css" />
