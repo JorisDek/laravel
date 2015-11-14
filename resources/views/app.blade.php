@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Select2 css,js -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/select2/4.0.0/css/select2.min.css" />
-	
+	<link rel="stylesheet" href="/css/app.css" />
 
 	
 </head>
