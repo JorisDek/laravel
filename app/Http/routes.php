@@ -10,7 +10,18 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/', 'PagesController@welcome');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('articles', 'ArticlesController');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
+
+Route::get('tags/{tags}', 'TagsController@show');
+
+Route::get('foo', ['middleware' => 'manager', function(){
+	
+	return 'This page may only be viewed by managers';
+}]);
