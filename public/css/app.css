@@ -21,9 +21,10 @@ body {
 
 .content {
     text-align: center;
-    display: inline-block;
+    
 }
 
 .title {
+    margin-top: 40vh;
     font-size: 96px;
 }
