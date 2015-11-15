@@ -14,7 +14,7 @@
 <body>
 	
 
-	<div class="container" style="padding:50px 0 0 0;">
+	<div class="container">
 		@include('particles.flash')
 		
 		@yield('content')
