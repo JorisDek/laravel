@@ -10,7 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', 'PagesController@welcome');
+//Route::get('/', 'PagesController@welcome');
+Route::get('foo', ['middleware' => 'manager', function(){
+	
+	return phpinfo();
+}]);
 
 Route::resource('articles', 'ArticlesController');
 
