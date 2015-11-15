@@ -68,7 +68,7 @@ class ArticlesController extends Controller
         $article->tags()->sync($tags);       
     }
 
-    private function createArticle(ArticleRequest $request) {
+    private function createArticle(Request $request) {
         $article = \Auth::user()->articles()->create($request->all());
 
         $this->syncTags($article, $request->input('taglist'));
