@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Laravel Tutorial</title>
+	<title>JorisDek.nl</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Select2 css,js -->
